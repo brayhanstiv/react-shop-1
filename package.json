@@ -8,8 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "msg=`git show-branch --no-name HEAD` && gh-pages -b newDeploy -d dist -m \"$msg\" ",
     "start": "webpack serve",
-    "build": "webpack --mode production",
-    "or": "po=`git show-branch --no-name HEAD` && echo \"$po\""
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
